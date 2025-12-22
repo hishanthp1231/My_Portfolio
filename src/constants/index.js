@@ -36,15 +36,22 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind", "Vite"],
   },
   {
-    title: "Parliament Election Results Feeding System",
+    title: "Automatic Exam TimeTable Scheduler",
     image: project2,
+    description:
+      "Developed a web-based automatic exam scheduling system using React, Node.js, and MongoDB, powered by a Genetic Algorithm to generate conflict-free exam timetables. The system automates exam allocation, prevents student clashes, optimizes venue usage, and simplifies scheduling through an intuitive admin interface.",
+    technologies: ["JavaScript", "Node.js", "MongoDB", "React", "Genetic Algorithm"],
+  },
+  {
+    title: "Parliament Election Results Feeding System",
+    image: project3,
     description:
       "A robust system developed for managing and feeding real-time parliament election results. Built with Java and Spring Boot, the system ensures secure, efficient, and accurate data entry and aggregation for election monitoring and reporting.",
     technologies: ["Java", "Spring Boot", "Agile", "MySQL"],
   },
   {
     title: "Hotel Management System",
-    image: project3,
+    image: project4,
     description:
       "A comprehensive system developed for managing hotels, rooms, bookings, and customer information. Built with Java and Spring Boot, the system ensures efficient reservation management, secure data handling, and smooth operations for hotel staff and customers.",
     technologies: ["Java", "Spring Boot", "React", "MySQL"],
