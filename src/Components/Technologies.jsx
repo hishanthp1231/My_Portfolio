@@ -1,5 +1,5 @@
 import { SiSpringboot, SiPostgresql } from "react-icons/si";
-import { FaJava, FaGithub } from "react-icons/fa";
+import { FaJava, FaGithub, FaGitAlt, FaPython, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { RiReactjsLine } from "react-icons/ri";
 import { motion } from "framer-motion";
@@ -61,6 +61,30 @@ const Technologies = () => {
                     animate={createFloatAnimation(1)}
                 >
                     <FaGithub className="text-7xl text-white" />
+                </motion.div>
+                <motion.div
+                    className="rounded-2xl border-4 border-neutral-500 p-4"
+                    animate={createFloatAnimation(1.2)}
+                >
+                    <FaGitAlt className="text-7xl" style={{ color: '#F05032' }} />
+                </motion.div>
+                <motion.div
+                    className="rounded-2xl border-4 border-neutral-500 p-4"
+                    animate={createFloatAnimation(1.4)}
+                >
+                    <FaPython className="text-7xl" style={{ color: '#3776AB' }} />
+                </motion.div>
+                <motion.div
+                    className="rounded-2xl border-4 border-neutral-500 p-4"
+                    animate={createFloatAnimation(1.6)}
+                >
+                    <FaHtml5 className="text-7xl" style={{ color: '#E34F26' }} />
+                </motion.div>
+                <motion.div
+                    className="rounded-2xl border-4 border-neutral-500 p-4"
+                    animate={createFloatAnimation(1.8)}
+                >
+                    <FaCss3Alt className="text-7xl" style={{ color: '#1572B6' }} />
                 </motion.div>
             </div>
         </div>

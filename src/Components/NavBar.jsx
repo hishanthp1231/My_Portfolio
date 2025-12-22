@@ -10,7 +10,7 @@ const NavBar = () => {
         <a
           href="/CV.pdf"
           download="Hishanth_CV.pdf"
-          className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg text-white font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:shadow-lg hover:scale-105"
+          className="flex items-center gap-2 px-4 py-2 bg-black rounded-lg text-white font-medium hover:bg-neutral-800 transition-all duration-300 hover:shadow-lg hover:scale-105"
         >
           <FaDownload />
           <span>Download CV</span>
