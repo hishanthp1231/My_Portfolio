@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a results-oriented software engineer specializing in backend development, leadership, and machine learning. 
@@ -36,11 +36,11 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind", "Vite"],
   },
   {
-    title: "Hotel Management System",
+    title: "Automatic Exam Scheduling System",
     image: project4,
     description:
-      "A comprehensive system developed for managing hotels, rooms, bookings, and customer information. Built with Java and Spring Boot, the system ensures efficient reservation management, secure data handling, and smooth operations for hotel staff and customers.",
-    technologies: ["Java", "Spring Boot", "React", "MySQL"],
+      "Developed a web-based automatic exam scheduling system using React, Node.js, and MongoDB, powered by a Genetic Algorithm to generate conflict-free exam timetables. The system automates exam allocation, prevents student clashes, optimizes venue usage, and simplifies scheduling through an intuitive admin interface.",
+    technologies: ["React", "Node.js", "MongoDB", "Genetic Algorithm"],
   },
   {
     title: "Parliament Election Results Feeding System",
