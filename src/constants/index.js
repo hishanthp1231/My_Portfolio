@@ -23,7 +23,7 @@ export const EXPERIENCES = [
     role: "Intern Software Engineer",
     company: "Samuel Gnanam It Center",
     description: `Acted as Backend Team Lead, overseeing development and collaboration.\n\nConducted peer code reviews, managed merges, and mentored a colleague.\n\nDeveloped large-scale systems using Spring Boot.\n\nHandled deployment, maintenance, and release management.\n\nOrganized and facilitated daily standup meetings for Agile workflows.`,
-    technologies: ["Spring Boot", "Agile", "Leadership", "Deployment"],
+    technologies: ["Spring Boot", "Agile", "Leadership", "Deployment", "Git", "GitHub"],
   }
 ];
 
@@ -34,6 +34,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind", "Vite"],
+    githubLink: "https://github.com/hishanthp1231/My_Portfolio.git",
   },
   {
     title: "Automatic Exam Scheduling System",
@@ -41,13 +42,15 @@ export const PROJECTS = [
     description:
       "Developed a web-based automatic exam scheduling system using React, Node.js, and MongoDB, powered by a Genetic Algorithm to generate conflict-free exam timetables. The system automates exam allocation, prevents student clashes, optimizes venue usage, and simplifies scheduling through an intuitive admin interface.",
     technologies: ["React", "Node.js", "MongoDB", "Genetic Algorithm"],
+    githubLink: "https://github.com/hishanthp1231/Automatic-Exam-Timetable-Generator-Frontend.git",
   },
   {
     title: "Parliament Election Results Feeding System",
     image: project2,
     description:
       "A robust system developed for managing and feeding real-time parliament election results. Built with Java and Spring Boot, the system ensures secure, efficient, and accurate data entry and aggregation for election monitoring and reporting.",
-    technologies: ["Java", "Spring Boot", "Agile", "MySQL"],
+    technologies: ["Java", "Agile", "MySQL"],
+    githubLink: "https://github.com/hishanthp1231/Election_Backend.git",
   },
   {
     title: "Hotel Management System",
@@ -55,6 +58,7 @@ export const PROJECTS = [
     description:
       "A comprehensive system developed for managing hotels, rooms, bookings, and customer information. Built with Java and Spring Boot, the system ensures efficient reservation management, secure data handling, and smooth operations for hotel staff and customers.",
     technologies: ["Java", "Spring Boot", "React", "MySQL"],
+    githubLink: "https://github.com/SGIC-BATCH-15/HMS-Back-End-Final.git",
   }
 
 ];
