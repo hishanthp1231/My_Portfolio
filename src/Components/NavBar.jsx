@@ -1,4 +1,5 @@
 import Logo from "../assets/Logo.png";
+import CV from "../assets/HishanthCV.pdf";
 import { FaLinkedin, FaFacebook, FaGithub, FaInstagram, FaDownload } from "react-icons/fa";
 
 const NavBar = () => {
@@ -8,7 +9,7 @@ const NavBar = () => {
 
       <div className="flex items-center gap-6">
         <a
-          href="/CV.pdf"
+          href={CV}
           download="Hishanth_CV.pdf"
           className="flex items-center gap-2 px-4 py-2 bg-black rounded-lg text-white font-medium hover:bg-neutral-800 transition-all duration-300 hover:shadow-lg hover:scale-105"
         >
