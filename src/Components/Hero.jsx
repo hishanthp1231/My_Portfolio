@@ -22,7 +22,7 @@ const Hero = () => {
                         transition={{ delay: 0.2 }}
                         className="mt-4 text-2xl bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent"
                     >
-                        Backend Developer
+                        Software Engineer
                     </motion.h2>
 
                     <motion.p
