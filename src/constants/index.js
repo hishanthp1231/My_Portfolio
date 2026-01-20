@@ -3,21 +3,21 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a results-oriented software engineer specializing in backend development, leadership, and machine learning. 
-With hands-on experience as a backend team lead and contributor to projects like a Parliament Election Results Feeding System, Hotel Management System, and
-Automatic Exam scheduler, I excel at building secure, scalable, and innovative solutions using Spring Boot, Java, and modern technologies. 
-My passion is driving impactful change through collaboration, mentoring, and delivering high-quality software that solves real-world problems.`;
+export const HERO_CONTENT = `I am a software engineer who enjoys building reliable backend systems and leading teams to deliver real-world solutions. I have worked on projects such as a Parliament Election Results Feeding System, Hotel Management System, and an Automated Exam Scheduler, using Java, Spring Boot, and modern technologies. I am passionate about collaboration, mentoring, and creating software that is secure, scalable, and genuinely useful.`;
 
-export const ABOUT_TEXT = `I am a results-driven software engineer with a strong background in backend development and leadership. My experience spans leading backend teams, architecting and deploying large-scale systems with Spring Boot and Java, and implementing machine learning solutions. I have contributed to impactful projects such as a Parliament Election Results Feeding System, a Defect Tracker, and a Vehicle Maintenance System, each emphasizing security, scalability, and real-world value. As a mentor and collaborator, I thrive in agile teams, conduct code reviews, and ensure high-quality releases. My passion lies in building robust, secure, and innovative solutions that make a difference.`;
+export const ABOUT_TEXT = `I am a software engineer with a strong interest in backend development and team leadership. 
+I have experience working with Java and Spring Boot to design and build scalable systems, and 
+I have contributed to projects including a Parliament Election Results Feeding System, Hotel Management System, Task Management, and an Automated Exam Scheduler. I enjoy working in agile teams, reviewing code, mentoring others, and continuously learning new technologies. My goal is to build secure, well-structured software that solves real problems and adds real value.
+`;
 
 export const EXPERIENCES = [
-  {
-    year: "2022 - 2025",
-    role: "Undergraduate Student",
-    company: "Eastern University",
-    description: "Undergraduate student of Bachelor Of Computer Science at Trincomalee Campus Eastern University of Sri Lanka",
-    technologies: ["Cumulative 3.01"],
-  },
+  // {
+  //   year: "2022 - 2025",
+  //   role: "Undergraduate Student",
+  //   company: "Eastern University",
+  //   description: "Undergraduate student of Bachelor Of Computer Science at Trincomalee Campus Eastern University of Sri Lanka",
+  //   technologies: ["Cumulative 3.01"],
+  // },
   {
     year: "July 2025 – January 2026",
     role: "Intern Software Engineer",

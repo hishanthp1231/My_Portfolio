@@ -13,9 +13,11 @@ const Hero = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                     >
+                        <br />
+                        <br />
                         <h1 className="text-6xl sm:text-7xl lg:text-9xl font-black leading-[0.9] text-slate-900 tracking-[-0.05em]">
                             Hishanth <br />
-                            <span className="text-indigo-600/90">Puva</span>
+                            <span className="text-indigo-600/90 text-8xl">Puvanendramoorthy</span>
                         </h1>
                     </motion.div>
 
@@ -23,9 +25,9 @@ const Hero = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.2, duration: 0.8 }}
-                        className="mt-10 text-2xl sm:text-3xl font-bold bg-gradient-to-r from-indigo-600 via-violet-600 to-cyan-500 bg-clip-text text-transparent flex items-center gap-4"
+                        className="mt-10 text-4xl sm:text-4xl font-bold bg-gradient-to-r from-indigo-600 via-violet-600 to-cyan-500 bg-clip-text text-transparent flex items-center gap-4"
                     >
-                        Backend Developer
+                        Software Engineer
                     </motion.h2>
 
                     <motion.p
