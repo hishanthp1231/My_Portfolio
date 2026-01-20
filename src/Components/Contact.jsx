@@ -37,7 +37,7 @@ const Contact = () => {
 
             <div className="mt-40 text-center">
                 <p className="text-[10px] font-black text-slate-300 uppercase tracking-[0.5em]">
-                    © 2026 Hishanth Puva_ All Rights Reserved / Handcrafted with _Antigravity
+                    © 2026 Hishanth Puvanendramoorthy All Rights Reserved
                 </p>
             </div>
         </div>
