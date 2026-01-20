@@ -15,11 +15,11 @@ export const EXPERIENCES = [
     year: "2022 - 2025",
     role: "Undergraduate Student",
     company: "Eastern University",
-    description: "Undergraduate student of Bachelor Of Compuetr Science at Trincomalee Capus Eastern University of Sri Lanka",
+    description: "Undergraduate student of Bachelor Of Computer Science at Trincomalee Campus Eastern University of Sri Lanka",
     technologies: ["Cumulative 3.01"],
   },
   {
-    year: "July 2025 – Present",
+    year: "July 2025 – January 2026",
     role: "Intern Software Engineer",
     company: "Samuel Gnanam It Center",
     description: `Acted as Backend Team Lead, overseeing development and collaboration.\n\nConducted peer code reviews, managed merges, and mentored a colleague.\n\nDeveloped large-scale systems using Spring Boot.\n\nHandled deployment, maintenance, and release management.\n\nOrganized and facilitated daily standup meetings for Agile workflows.`,
@@ -64,7 +64,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "No 564/E, Arasady Amman Kovil Road, Pandiruppu-02C, Kalmunai, Sri Lanka",
+  address: "",
   phoneNo: "+94 71 5238154",
   email: "hishanthp01@gmail.com",
 };
