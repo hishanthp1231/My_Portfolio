@@ -20,10 +20,10 @@ const Contact = () => {
                     transition={{ duration: 0.8 }}
                     className="inline-block p-12 sm:p-20 rounded-[4rem] border border-white/40 bg-white/20 backdrop-blur-3xl shadow-3xl group"
                 >
-                    <p className="text-xl sm:text-2xl font-black text-slate-400 uppercase tracking-[0.4em] mb-4">Location_</p>
-                    <p className="text-2xl sm:text-4xl font-black text-slate-900 mb-12 tracking-tighter">{CONTACT.address || "Sri Lanka_"}</p>
+                    <p className="text-xl sm:text-2xl font-black text-slate-400 uppercase tracking-[0.4em] mb-4">Location</p>
+                    <p className="text-2xl sm:text-4xl font-black text-slate-900 mb-12 tracking-tighter">{CONTACT.address || "Sri Lanka"}</p>
 
-                    <p className="text-xl sm:text-2xl font-black text-slate-400 uppercase tracking-[0.4em] mb-4">Connection_</p>
+                    <p className="text-xl sm:text-2xl font-black text-slate-400 uppercase tracking-[0.4em] mb-4">Contact</p>
                     <p className="text-2xl sm:text-4xl font-black text-slate-900 mb-16 tracking-tighter">{CONTACT.phoneNo}</p>
 
                     <a
