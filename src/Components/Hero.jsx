@@ -17,7 +17,7 @@ const Hero = () => {
                         <br />
                         <h1 className="text-6xl sm:text-7xl lg:text-9xl font-black leading-[0.9] text-slate-900 tracking-[-0.05em]">
                             Hishanth <br />
-                            <span className="text-indigo-600/90 text-6xl">Puvanendramoorthy</span>
+                            <span className="text-indigo-600/90 text-7xl">Puvanendramoorthy</span>
                         </h1>
                     </motion.div>
 
