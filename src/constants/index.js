@@ -3,11 +3,14 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpeg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a software engineer who enjoys building reliable backend systems and leading teams to deliver real-world solutions. I have worked on projects such as a Parliament Election Results Feeding System, Hotel Management System, and an Automated Exam Scheduler, using Java, Spring Boot, and modern technologies. I am passionate about collaboration, mentoring, and creating software that is secure, scalable, and genuinely useful.`;
+export const HERO_CONTENT = `I am a software engineer who enjoys building reliable backend systems and leading teams to deliver real-world solutions.
+ I have worked on projects such as a Pharmacy SaaS System, Hotel Management System, and an Automated Exam Scheduler, using Java, Spring Boot, Nest JS and modern technologies. 
+ I am passionate about collaboration, mentoring, and creating software that is secure, scalable, and genuinely useful.`;
 
 export const ABOUT_TEXT = `I am a software engineer with a strong interest in backend development and team leadership. 
 I have experience working with Java and Spring Boot to design and build scalable systems, and 
-I have contributed to projects including a Parliament Election Results Feeding System, Hotel Management System, Task Management, and an Automated Exam Scheduler. I enjoy working in agile teams, reviewing code, mentoring others, and continuously learning new technologies. My goal is to build secure, well-structured software that solves real problems and adds real value.
+I have contributed to projects including a Pharmacy SaaS System, Hotel Management System, Pharmacy POS System, and an Automated Exam Scheduler. I enjoy working in agile teams, reviewing code, mentoring others, and continuously learning new technologies.
+ My goal is to build secure, well-structured software that solves real problems and adds real value.
 `;
 
 export const EXPERIENCES = [
@@ -23,18 +26,25 @@ export const EXPERIENCES = [
     role: "Intern Software Engineer",
     company: "Samuel Gnanam It Center",
     description: `Acted as Backend Team Lead, overseeing development and collaboration.\n\nConducted peer code reviews, managed merges, and mentored a colleague.\n\nDeveloped large-scale systems using Spring Boot.\n\nHandled deployment, maintenance, and release management.\n\nOrganized and facilitated daily standup meetings for Agile workflows.`,
-    technologies: ["Spring Boot", "Agile", "Leadership", "Deployment", "Git", "GitHub"],
+    technologies: ["Java", "Spring Boot", "Agile", "Leadership", "Deployment", "Git", "GitHub"],
+  },
+    {
+    year: "February 2026 – August 2026",
+    role: "Intern Software Engineer",
+    company: "Neirah Tech It Solutions",
+    description: `Worked as Full Stack developer.\n\nConducted peer code reviews, managed merges, and mentored a colleague.\n\nDeveloped large-scale systems using Node JS.\n\nHandled deployment, maintenance, and release management.\n\nOrganized and facilitated daily standup meetings for Agile workflows.`,
+    technologies: ["Java", "Node.js", "React", "TypeScript", "Deployment", "Git", "GitHub", "Render", "CI/CD"],
   }
 ];
 
 export const PROJECTS = [
   {
-    title: "Portfolio Website",
+    title: "Pharmacy Saas",
     image: project1,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind", "Vite"],
-    githubLink: "https://github.com/hishanthp1231/My_Portfolio.git",
+      "A cloud-based Pharmacy SaaS system developed with NestJS, React, TypeScript, PostgreSQL, and Prisma ORM.",
+    technologies: ["NestJS", "React", "TypeScript", "PostgreSQL", "Prisma ORM"],
+    githubLink: "https://github.com/hishanthp1231/pharmacy-SaaS.git",
   },
   {
     title: "Automatic Exam Scheduling System",
